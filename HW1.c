@@ -8,6 +8,7 @@ int main(int argc, char* argv[])
     // file open
     FILE *fp;
     int number;
+    int i;
     
     char filepath[100];
     printf("Path: ");
@@ -26,7 +27,7 @@ int main(int argc, char* argv[])
     while(fscanf(fp,"%s",word) >0)
     {
         //printf("%s\n", word);
-        for(int i=0;i<argc;i++)
+        for(i=0;i<argc;i++)
         {
             if (strcmp(argv[i], word) == 0)
             {
@@ -35,7 +36,7 @@ int main(int argc, char* argv[])
         }
     }
 
-    for (int i=0;i<argc;i++){
+    for (i=0;i<argc;i++){
         printf("%s:   %d\n", argv[i], count[i]);
     }
     
