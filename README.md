@@ -1,5 +1,7 @@
 # 532_HW1    Hung-Yi Lu    lu0106
 
+# GitHub lu0106
+
 Reference my CS533 homework
 
 
