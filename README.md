@@ -1,10 +1,19 @@
 # 532_HW1    Hung-Yi Lu    lu0106
+
 Reference my CS533 homework
 
-$ gcc -o HW1 HW1.c
 
-$ ./ HW1 an
+Example:
 
-$ (path) (enter path here)
+$ gcc -o hw1 HW1.c
 
-print an (number)
+$ ./ hw1 an and a the
+
+$ Path: tale.txt  (enter path here)
+
+(out)
+./hw1:   0
+an:   344
+and:   4931
+a:   2909
+the:   7989
