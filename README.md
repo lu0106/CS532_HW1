@@ -1,7 +1,7 @@
 # 532_HW1    Hung-Yi Lu    lu0106
-
 # GitHub lu0106
 # SSH: git@github.com:lu0106/532_HW1.git
+# HTTPS: https://github.com/lu0106/532_HW1.git
 
 Reference my CS533 homework
 
