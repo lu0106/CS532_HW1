@@ -15,7 +15,6 @@ $ ./ hw1 an and a the
 $ Path: tale.txt  (enter path here)
 
 (out)
-./hw1:   0
 an:   344
 and:   4931
 a:   2909

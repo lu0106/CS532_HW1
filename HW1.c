@@ -2,8 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-int main(int argc, char* argv[])
-{
+int main(int argc, char* argv[]){
 
     // file open
     FILE *fp;
@@ -24,19 +23,19 @@ int main(int argc, char* argv[])
     if (fp == NULL)
 		exit(EXIT_FAILURE);
 
-    while(fscanf(fp,"%s",word) >0)
-    {
+    while(fscanf(fp,"%s",word) >0){
+
         //printf("%s\n", word);
-        for(i=0;i<argc;i++)
-        {
-            if (strcmp(argv[i], word) == 0)
-            {
+        for(i=0;i<argc;i++){
+
+            if (strcmp(argv[i], word) == 0){
+
                 count[i] += 1;
             }
         }
     }
 
-    for (i=0;i<argc;i++){
+    for (i=1;i<argc;i++){
         printf("%s:   %d\n", argv[i], count[i]);
     }
     
