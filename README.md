@@ -5,14 +5,11 @@
 
 Reference my CS533 homework
 
-
 Example:
 
 $ gcc -o hw1 HW1.c
 
-$ ./ hw1 an and a the
-
-$ Path: tale.txt  (enter path here)
+$ ./hw1 an and a the (enter words here) tale.txt(enter path here)
 
 (out)
 an:   344
